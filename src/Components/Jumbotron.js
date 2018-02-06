@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import img from '../Images/collier2.jpg';
+import img from '../Images/fond_jumbotron.png';
 import './Jumbotron.css';
 import lambi from '../Images/lambi.png'
 
 const divStyle = {
   backgroundImage: `url(${img})`,
   backgroundSize:'cover',
+  backgroundColor:'rgb(128, 118, 118)',
+  backgroundBlendMode: 'multiply',
   width: "100%",
   paddingTop: "12%",
   paddingBottom: "2%",
